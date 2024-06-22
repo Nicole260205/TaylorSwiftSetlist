@@ -1,0 +1,45 @@
+            .font{color:white}
+            .bordacor{background-color: black;}
+            .lover{background-color:#EBBED3;}
+            .fearless{background-color:#EEDBA9;}
+            .evermore{background-color:#D37F55;}
+            .reputation{background-color:#B9B9B9;}
+            .speaknow{background-color: #D1A0C7;}
+            .red{background-color: #951e1a;}
+            .folklore{background-color: #949494;}
+            .ninteen{background-color: #d6e9ff;}
+            .debut{background-color: #6aebb4;}
+            .midnight{background-color:	#AC9FB8;}
+            .torturedpoets{background-color: #635b3a;}
+            .fontes{
+            color:#625548;
+            font-family:'bolha';
+            font-size: 20px;}
+        body{background-color:#edece8;
+          min-height: 100vh;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        }
+            h1{
+                font-family: 'bolha';
+                font-size: 40px;
+                -webkit-text-stroke: 1px black;
+            }
+            h2{
+                font-family:'spotify';
+            }
+            h3{
+                font-family: 'spotify';
+            }
+            @font-face {
+            font-family:'bolha';
+            src: url('Bubble Bobble.otf') format('opentype'),
+            url('Bubble Bobble.ttf') format('trutype');
+            font-weight: normal;
+            font-style: normal;
+        } 
+        @font-face {
+            font-family:'spotify' ;
+            src: url('Vanilla Caramel.otf') format('opentype');
+        }
