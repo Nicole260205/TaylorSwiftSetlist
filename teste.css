@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+ @font-face {
+            font-family:'spotify' ;
+            src: url('Vanilla Caramel.otf') format('opentype');
+        }
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background-color:#FFDEAD;
+}
+
+header {
+  font-family:'spotify';
+  font-size: 20px;
+  background-color:darkseagreen;
+  padding: 10px 20px;
+}
+header .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo img {
+    height: 50px;
+    display: block;
+    border: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkseagreen;
+    padding: 20px;
+    transition: left 0.3s;
+}
+
+.navbar.show {
+    left: 0 !important;
+}
+
+.hide-scroll {
+    overflow: hidden;
+}
+
+.navbar ul {
+    all: unset;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.navbar ul a {
+    all: unset;
+    color: #444444;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 28px;
+}
+.navbar ul a:hover {
+    color: #111111;
+    text-decoration: underline overline;
+    text-decoration-thickness: 3px;
+}
+
+.close-nav {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.close-nav button {
+    all: unset;
+    background: #f7f7f7;
+    font-size: 42px;
+    cursor: pointer;
+    border: 1px solid 
+rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 3px;
+    color: 
+#444444;
+}
+.close-nav button:hover {
+    color: 
+#222222;
+    background: 
+white;
+}
+
+.menu-bar button {
+    border: 1px solid 
+rgba(0, 0, 0, 0.1);
+    background: 
+#f7f7f7;
+    height: 50px;
+    width: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.menu-bar i {
+    display: block;
+    border-top: 3px solid 
+#444444;
+    border-bottom: 3px solid 
+#444444;
+}
+.menu-bar i::after {
+    display: block;
+    content: "";
+    border-top: 3px solid 
+#444444;
+    margin: 6px 0;
+}
+.menu-bar button:hover {
+    background: 
+white;
+}
+.menu-bar button:hover i {
+    border-color: 
+#222222;
+}
+
+
+@media (min-width: 550px) {
+    .navbar {
+        all: unset;
+        display: block;
+    }
+    .navbar ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .navbar ul a {
+        font-size: inherit;
+    }
+    .close-nav,
+    .menu-bar {
+        display: none;
+    }
+}
+.contorno{
+            -webkit-text-stroke: 1px black
+        }
+        .fontes{
+            color:darkseagreen;
+            -webkit-text-stroke: 1px black;
+            font-family:'bolha';
+            font-size: 28px;
+    
+        }
+        img{ border: 6px solid 	#9370DB	;   
+            cursor: pointer;
+            height: 250px;
+            width: 250px; 
+            object-fit: cover;
+           
+          }
+            
+        body{background-color:#FFDEAD;
+        }
+        div.box {
+            width: 300px;
+            height:300px;
+            display: inline-block;
+        }
+    .container{
+    position: relative;
+    text-align: right;
+        }
+    .legenda {
+    position: absolute;
+    left: 65px;
+    top: 10px;
+    text-align: center;
+    color: #F0EAD6	 ;
+    }
+    .legenda h3 {
+    margin: 0;
+    }
+    .cordalegenda{
+     text-decoration:none;
+      color:#D3D3D3;
+
+    }
+    .cordotexto{text-decoration:none;
+         color:darkorchid}
+
+    .spotify{text-decoration:none;
+      color: white;
+      font-family: 'spotify';
+      font-size: 28px;
+        }
+@font-face {
+            font-family: 'taylorletra';
+            src: url('Taylor Swift Handwriting.ttf') format('truetype'); 
+        }
+           @font-face {
+            font-family:'bolha';
+            src: url('Bubble Bobble.otf') format('opentype'),
+            url('Bubble Bobble.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        } 
+        @font-face {
+            font-family:'spotify' ;
+            src: url('Vanilla Caramel.otf') format('opentype');
+        }
